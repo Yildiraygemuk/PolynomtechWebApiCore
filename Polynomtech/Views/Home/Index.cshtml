@@ -1,0 +1,213 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<div class="text-center">
+    <h1 class="display-4">Polynomtech</h1>
+
+</div>
+<div class="container" style="padding-top:200px">
+
+
+    <div class="row">
+        <div class="col-md-4"> <input type=text name=sample_search placeholder="İsim Ara" id=parfumeSearch onkeyup=search_func(this.value);></div>
+        <div class="col-md-4">
+            <label>Fiyata Göre Filtrele</label>
+            <select id="priceFilter">
+                <option value="1">Artan Fiyat</option>
+                <option value="-1">Azalan Fiyat</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label>Markaya Göre Filtrele</label>
+            <select id="brandFilter">
+            </select>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Ürün Adı</th>
+                    <th scope="col">Marka</th>
+                    <th scope="col">Fiyat</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-5" style="    border-radius: 19px;
+    border: solid 1px;">
+        <table class="table">
+            <thead>
+                <p class="text-center">SEPETİM</p>
+                <tr>
+                    <th scope="col">Ürün Adı</th>
+                    <th scope="col">Marka</th>
+                    <th scope="col">Fiyat</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbodybasket">
+                <input type="button" id="OrderAdd" class="btn btn-primary" value="Sipariş Ver" />
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "Get",
+            url: "/api/parfumes?$select=parfumeID,parfumename,price,BrandId,&$Expand=Brand($select=BrandName)",
+            success: function (gelen) {
+                gelen.map(function (item) {
+                    console.log(item)
+                    $('#tbody').append(`<tr class="tables">
+                      <td id="parfumeName" value="${item.ParfumeName}">${item.ParfumeName}</td>
+                    <td id="brandName" value="${item.Brand.BrandName}">${item.Brand.BrandName}</td>
+                    <td id="price" value="${item.Price}">${item.Price}</td>
+                    <td id="brandid" style="display: none" value="${item.BrandId}" > ${item.BrandId} </td>
+                    <td id="parfumeid" style="display: none" value="${item.ParfumeID}" > ${item.ParfumeID} </td>
+
+                    <td><button class="btn btn-primary" value="${item.ParfumeID}" onclick="addCart(${item.ParfumeID})"    id="basketButton" >Sepete Ekle </button> </td>
+                </tr>`)
+                })
+            }
+        });
+        $.ajax({
+            type: "Get",
+            url: "/api/brands",
+            success: function (gelen) {
+                gelen.map(function (item) {
+                    console.log(item)
+                    $('#brandFilter').append(`<option value="${item.brandID}">${item.brandName}</option>`)
+                })
+            }
+        });
+    })
+
+    $('#priceFilter').change(function () {
+        $('.tables').empty();
+        if ($('#priceFilter').val() == 1) {
+            $.ajax({
+                type: "Get",
+                url: "/api/parfumes?$select=ParfumeName,ParfumeID,Price,Brand&$expand=Brand($select=BrandName)&$orderby=price%20asc",
+                success: function (gelen) {
+                    gelen.map(function (item) {
+                        console.log(item)
+                        $('#tbody').append(`<tr class="tables">
+                    <td>${item.ParfumeName}</td>
+                    <td>${item.Brand.BrandName}</td>
+                    <td>${item.Price}</td>
+                    <td style="display: none">${item.ParfumeID}</td>
+                    <td><button class="btn btn-primary" onclick="addCart(${item.ParfumeID})" id=${item.ParfumeID}>Sepete Ekle </button> </td>
+                </tr>`)
+                    })
+                }
+            });
+        } else {
+            $.ajax({
+                type: "Get",
+                url: "/api/parfumes?$select=ParfumeName,ParfumeID,Price,Brand&$expand=Brand($select=BrandName)&$orderby=Price%20desc",
+                success: function (gelen) {
+                    gelen.map(function (item) {
+                        console.log(item)
+                        $('#tbody').append(`<tr class="tables">
+                     <td>${item.ParfumeName}</td>
+                    <td>${item.Brand.BrandName}</td>
+                    <td>${item.Price}</td>
+                    <td style="display: none">${item.ParfumeID}</td>
+                    <td><button class="btn btn-primary" onclick="addCart(${item.ParfumeID})" id=${item.ParfumeID}>Sepete Ekle </button> </td>
+                </tr>`)
+                    })
+                }
+            });
+        }
+    })
+
+    $('#brandFilter').change(function () {
+        $.ajax({
+            type: "Get",
+            url: "/api/parfumes?&$filter=BrandID%20eq " + $('#brandFilter').val() + " &$Select=ParfumeName,Price,BrandId,Brand&$expand=Brand($Select=BrandName)",
+            success: function (gelen) {
+                $('#tbody').empty();
+                gelen.map(function (item) {
+                    console.log(item)
+                    $('#tbody').append(`<tr class="tables">
+                     <td id="parfumeName" value="${item.ParfumeName}">${item.ParfumeName}</td>
+                    <td id="brandName" value="${item.Brand.BrandName}">${item.Brand.BrandName}</td>
+                    <td id="price" value="${item.Price}">${item.Price}</td>
+                    <td id="brandid"style="display: none" value="${item.BrandId}" > ${item.BrandId} </td>
+                    <td><button class="btn btn-primary" onclick="addCart(${item.ParfumeID})" value="${item.ParfumeID}"  id="basketButton" >Sepete Ekle </button> </td>
+                </tr>`)
+                })
+            }
+        });
+    })
+    function search_func(value) {
+        $.ajax({
+            type: "Get",
+            url: "/api/parfumes?$filter=startswith(ParfumeName,%20%27" + value + "%27)%20eq%20true&$Select=ParfumeName,ParfumeID,Price,BrandId,Brand&$expand=Brand($Select=BrandName)",
+            success: function (gelen) {
+                $('#tbody').empty();
+                gelen.map(function (item) {
+                    console.log(item)
+                    $('#tbody').append(`<tr class="tables">
+                     <td id="parfumeName" value="${item.ParfumeName}">${item.ParfumeName}</td>
+                    <td id="brandName" value="${item.Brand.BrandName}">${item.Brand.BrandName}</td>
+                    <td id="price" value="${item.Price}">${item.Price}</td>
+                    <td id="brandid" style="display: none" value="${item.BrandId}" > ${item.BrandId} </td>
+                    <td id="parfumeid" style="display: none" value="${item.ParfumeID}" > ${item.ParfumeID} </td>
+
+                    <td><button class="btn btn-primary" value="${item.ParfumeID}" onclick="addCart(${item.ParfumeID})" id="basketButton" >Sepete Ekle </button> </td>
+                </tr>`)
+                })
+            }
+        });
+    }
+    var list = new Array();
+    function addCart(parfumeID) {
+        $.ajax({
+            type: "Get",
+            url: "/api/parfumes?&$filter=ParfumeID eq " + parfumeID + "&$Select=ParfumeName,ParfumeID,Price,BrandId,Brand&$expand=Brand($Select=BrandName)",
+            success: function (gelen) {
+                gelen.map(function (item) {
+                    list.push(item);
+                    $('#tbodybasket').append(`<tr class="tables">
+                     <td id="parfumeName" value="${item.ParfumeName}">${item.ParfumeName}</td>
+                    <td id="brandName" value="${item.Brand.BrandName}">${item.Brand.BrandName}</td>
+                    <td id="price" value="${item.Price}">${item.Price}</td>
+                    <td id="brandid" style=" style="display: none" value="${item.BrandId}" > ${item.BrandId} </td>
+                    <td id="parfumeid" style="display: none" value="${item.ParfumeID}" > ${item.ParfumeID} </td>
+                </tr>`)
+                })
+            }
+        });
+    }
+
+    $('#OrderAdd').click(function () {
+        for (var i = 0; i < list.length; i++) {
+            $.ajax({
+                type: "POST",
+                url: "/OrderDetail/AddOrderDetail",
+                data:
+                {
+                    ParfumeID: list[i].ParfumeID,
+                    Price: list[i].Price,
+                    Count: 1
+                }
+
+            });
+        }
+        alert("SİPARİŞİNİZ ALINMIŞTIR!")
+        $('#tbodybasket').remove();
+
+        window.location.reload()
+
+    })
+</script>
+
+@*/api/parfumes?$filter=startswith(ParfumeName,%20%27parfum2%27)%20eq%20true*@

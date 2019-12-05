@@ -1,0 +1,68 @@
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.deps.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.runtimeconfig.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.dll
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.pdb
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.Views.dll
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.Views.pdb
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.TagHelpers.input.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.TagHelpers.output.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorCoreGenerate.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorTargetAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.Views.pdb
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.dll
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.pdb
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Basket.cshtml.g.cs
+C:\Users\lenovo\Desktop\Proje\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\AddParfume.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.deps.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.runtimeconfig.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.dll
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.pdb
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.Views.dll
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\bin\Debug\netcoreapp2.2\Polynomtech.Views.pdb
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.TagHelpers.input.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.TagHelpers.output.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorCoreGenerate.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\AddParfume.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Basket.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.RazorTargetAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.Views.pdb
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.dll
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.pdb
+C:\Users\lenovo\Desktop\Yeni klasör (2)\Yeni klasör (3)\Polynomtech\Polynomtech\obj\Debug\netcoreapp2.2\Polynomtech.csproj.CopyComplete
